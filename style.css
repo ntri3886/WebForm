@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+ul li {
+  list-style: none;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 100px; 
+}
+
+input:focus {
+  background: beige;
+}
+
+button:hover {
+  color: cadetblue;
+
+}
+
+button:active {
+  color:aquamarine;
+
+}
